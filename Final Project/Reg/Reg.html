@@ -1,0 +1,138 @@
+<!-- !!!!!!!!!!!!!
+!!!!!!!!!!!!! -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Login and Registration Form in HTML & CSS </title>-->
+    <link rel="stylesheet" href="Reg.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="autofill">
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <img src="images/frontImg.jpg" alt="">
+        <div class="text">
+          <span class="text-1">Every new friend is a <br> new adventure</span>
+          <span class="text-2">Let's get connected</span>
+        </div>
+      </div>
+      <div class="back">
+        <img class="backImg" src="images/backImg (1).jpg" alt=""> 
+        <div class="text">
+          <span class="text-1">Complete miles of journey <br> with one step</span>
+          <span class="text-2">Let's get started</span>
+        </div>
+      </div>
+    </div>
+    <div class="forms">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Login</div>
+          <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+              <div class="text"><a href="#">Forgot password?</a></div>
+              <div class="button input-box">
+                <input type="submit" value="Sumbit">
+              </div>
+              <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label></div>
+            </div>
+        </form>
+      </div>
+        <div class="signup-form">
+          <div class="title">Signup</div>
+        <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Enter your name" required>
+              </div>
+              <!-- <div class="input-box">
+                <i class="fas fa-landmark"></i>
+                <input type="text" placeholder="Enter your Occupation(eg: Student)" required>
+              </div> -->
+              <div class="input-box">
+                <i class="fas fa-globe"></i>
+                <input type="text" placeholder="Enter your Country(eg:India or Spain)" required>
+              </div>
+              <!-- <div class="input-box">
+                <i class="fas fa-city"></i>
+                <input type="text" placeholder="Enter your Hometown(eg: Kolkata)" required>
+              </div>  -->
+              <div class="input-box">
+                <i class="fas fa-mobile-alt"></i>
+                <input type="text" placeholder="Enter your phone no." required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Enter your email(or gmail)" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+              <div class="input-box">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" placeholder="Confirm your password" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-address-book"></i>
+                <input type="text" placeholder="Enter your Address">
+              </div> 
+              <div class="input-box">  
+               <i class="fas fa-birthday-cake">DOB:</i> 
+               &nbsp;&emsp;&ensp;<input type="date" id="birthday" name="birthday"></div>  
+              <div class="gender-details">
+                <i class="fas fa-venus-mars"></i> 
+                <label for="Gender">Select your gender</label>
+                <select value="Gender">
+                  <option value="none" selected>Gender</option>  
+                  <option id="dot-1">&#xf222; Male </option>
+                  <option id="dot-2">&#xf221;Female</option>
+                  <option id="dot-3">&#xf224;Transgender</option>
+                  <option id="dot-4">&#xf22d;Prefer not to say</option>
+                </select>
+                  <!-- <div class="category">
+                      <label for="dot-1">
+                          <span class="dot one"></span>
+                          <i class="fas fa-mars">Male</i>
+                      </label>
+                      <label for="dot-2">
+                        <span class="dot two"></span>
+                        <i class="fas fa-venus">Female</i>
+                    </label>
+                    <label for="dot-3">
+                      <span class="dot three"></span>
+                      <i class="fas fa-transgender">Transgender</i>
+                  </label>
+                    <label for="dot-4">
+                        <span class="dot four"></span>
+                        <i class="fas fa-genderless">Prefer not to say</i>
+                    </label>
+                  </div>   -->
+              <div class="button input-box">
+                <input type="submit" value="Submit">
+              </div>
+              <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label></div>
+            </div>
+      </form>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

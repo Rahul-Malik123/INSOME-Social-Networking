@@ -1,0 +1,42 @@
+.container {
+  margin: auto;
+  background-color: #2980B9;
+}
+#form_main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+  padding: 40px 10px 40px 10px;
+  border-radius:15px 15px 15px 15px;
+}
+#registration {
+  color: white;
+  background-color: #FFA07A;
+  border: #FFA07A;
+  margin-top: 20px;
+}
+
+#login_outside {
+  background-color: #9932cc;
+  background-image:  url(assets/background.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+
+}
+#login_box {
+  height: 500px;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 50px;
+  box-shadow: 2px;
+}
+
+#login_left {
+background-color: blue;
+background-image:  url(assets/social.png);
+background-blend-mode:  multiply;
+}
+
+#login_right {
+  background-color: white;
+}
